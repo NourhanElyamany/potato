@@ -1,3 +1,4 @@
+from time import sleep
 import speech_recognition as sr
 import pyttsx3 as tts
 import os
@@ -21,11 +22,16 @@ class SpeechPatternRecognizer():
         self.recognizer = sr.Recognizer()
 
     def speak(self, text):
+        self.speaker.startLoop(False)
         self.speaker.say(text)
-        try:
-            self.speaker.runAndWait()
-        except Exception as e:
-            self.speak("Cheack your internet connection please, error : " + str(e))
+        
+        self.speaker.iterate()
+        while self.speaker.isBusy():
+            sleep(0.1)
+            
+        self.speaker.endLoop()
+        
+            
 
     def listen(self, stealthMode = False):
 
