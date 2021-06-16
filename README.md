@@ -12,8 +12,7 @@ A beuatiful AI assistant to help students with their uni life that is centralize
 ![GitHub Repo stars](https://img.shields.io/github/stars/karimkohel/potato?style=flat-square)
 ## Installation 
 
-Just install using the installer in the [Latest Release](https://github.com/karimkohel/potato/releases)
-    
+
 ## Demo
 
 #### Main Window
