@@ -23,13 +23,13 @@ A beuatiful AI assistant to help students with their uni life that is centralize
 #### Chat Window
 - Open the text window to chat normally as you would any chat application.
 - Potato will chat with you casually or carry out the tasks you request.
-![Chat window](https://raw.githubusercontent.com/karimkohel/potato/main/demo/chat.PNG)
+![Chat window](https://raw.githubusercontent.com/NourhanElyamany/potato/main/demo/chat.PNG)
 
 #### Voice Window
 - Open the voice window and minimize potato so that it is listining in the background and waiting for you to start chatting by saying **Hey potato**.
 - You can start chatting with potato while it is in the background without clicking on it, asking what you need and then sending it away is as easy as calling it with **go away** so it goes back to the background awaiting your next call.
 - To close potato completely using voice command you can use keyword **exit** in any context and potato will exit entirely.
-![Chat window](https://raw.githubusercontent.com/karimkohel/potato/main/demo/voice.PNG)
+![Chat window](https://raw.githubusercontent.com/NourhanElyamany/potato/main/demo/voice.PNG)
 ## Tech Stack
 
 ##### **Client:** 
