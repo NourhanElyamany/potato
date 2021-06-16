@@ -18,7 +18,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(100, 210, 301, 81))
-        self.label.setStyleSheet("font: 87 12pt \"Optima\";\n"
+        self.label.setStyleSheet("font: 87 18pt \"Optima\";\n"
         "color: rgb(147, 0, 0);")
         self.label.setTextFormat(QtCore.Qt.AutoText)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
@@ -28,7 +28,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
         self.chatButton.setGeometry(QtCore.QRect(130, 300, 113, 32))
         self.chatButton.setStyleSheet("""QPushButton{color: rgb(255, 144, 77);
         background-color: 'white';
-        font: 75 italic 18pt "Optima";
+        font: 75 italic 16pt "Optima";
         border:0px solid;
         border-radius: 6px;}
         QPushButton::hover{background-color:bisque;
