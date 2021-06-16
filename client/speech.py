@@ -21,6 +21,8 @@ class SpeechPatternRecognizer():
 
         # init speech recognizer engine with google
         self.recognizer = sr.Recognizer()
+        self.recognizer.energy_threshold = 3000
+
 
     def speak(self, text):
         self.speaker.startLoop(False)
@@ -40,7 +42,7 @@ class SpeechPatternRecognizer():
             try:
                 with sr.Microphone() as mic:
                     print("mic")
-                    self.recognizer.adjust_for_ambient_noise(mic, duration=0.01)
+                    self.recognizer.adjust_for_ambient_noise(mic, duration=0.1)
                     audio = self.recognizer.listen(mic)
 
                     text = self.recognizer.recognize_google(audio)
