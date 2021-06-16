@@ -18,7 +18,7 @@ A beuatiful AI assistant to help students with their uni life that is centralize
 #### Main Window
 - Potato has 2 main windows, the voice and text chat windows and it will have full functionality in both modes.
 - You can acces both windows from the main window.
-![Main window](https://raw.githubusercontent.com/karimkohel/potato/main/demo/main.PNG)
+![Main window](https://raw.githubusercontent.com/NourhanElyamany/potato/main/demo/main.PNG)
 
 #### Chat Window
 - Open the text window to chat normally as you would any chat application.
