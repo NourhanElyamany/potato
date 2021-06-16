@@ -1,4 +1,5 @@
 from time import sleep
+from numpy import min_scalar_type
 import speech_recognition as sr
 import pyttsx3 as tts
 import os
@@ -27,7 +28,7 @@ class SpeechPatternRecognizer():
         
         self.speaker.iterate()
         while self.speaker.isBusy():
-            sleep(0.1)
+            sleep(0.3)
             
         self.speaker.endLoop()
         
@@ -38,11 +39,13 @@ class SpeechPatternRecognizer():
         while True:
             try:
                 with sr.Microphone() as mic:
-                    self.recognizer.adjust_for_ambient_noise(mic, duration=0.1)
+                    print("mic")
+                    self.recognizer.adjust_for_ambient_noise(mic, duration=0.01)
                     audio = self.recognizer.listen(mic)
 
                     text = self.recognizer.recognize_google(audio)
                     text = text.lower()
+                    print(text)
 
                     return text
             except sr.UnknownValueError:
