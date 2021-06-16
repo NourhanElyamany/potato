@@ -1,4 +1,5 @@
 # Potato
+`MacOS version`
 
 A beuatiful AI assistant to help students with their uni life that is centralized on a server somewhere
 
