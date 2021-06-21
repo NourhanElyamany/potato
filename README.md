@@ -90,7 +90,8 @@ For general support [open an issue](https://github.com/karimkohel/potato/issues)
 
 ## Authors
 
-- [@karimkohel](https://www.github.com/karimkohel)
+
 - [@NourhanElyamany](https://www.github.com/NourhanElyamany)
+- [@karimkohel](https://www.github.com/karimkohel)
 - [@Mohameosama](https://www.github.com/Mohameosama)
 - [@omar9991](https://www.github.com/omar9991)
